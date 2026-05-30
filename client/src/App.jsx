@@ -19,8 +19,8 @@ export default function App() {
         <StockDashboard />
       </main>
       <footer className="footer">
-        StockVedic &copy; {new Date().getFullYear()} &mdash; Data: NSE India, Finnhub
-        <span className="footer-rev"> rev {import.meta.env.VITE_GIT_COMMIT || 'dev'}</span>
+        <span>StockVedic <span className="footer-rev">v1.0.0</span></span>
+        <span className="footer-copy">Copyrights &copy; 2026 Veera Kumar, All rights reserved. | Made with &hearts; and &#9749; by Veera Kumar</span>
       </footer>
     </div>
   )
